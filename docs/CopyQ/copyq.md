@@ -24,7 +24,7 @@ CopyQ stores its core configurations, tweaks, and UI layout in your AppData fold
 2. Copy the `copyq.ini` file.
 3. Paste this file into your repository's `config-files` folder.
 
-*(Optional: If you want to back up your actual pinned clipboard history tabs, copy the folder/files ending in `.dat` in the same directory. However, for a fresh install, usually just the settings and commands are needed).*
+_(Optional: If you want to back up your actual pinned clipboard history tabs, copy the folder/files ending in `.dat` in the same directory. However, for a fresh install, usually just the settings and commands are needed)._
 
 ## 📥 How to Restore on a Fresh Install
 
@@ -32,12 +32,46 @@ When setting up a new Windows machine, follow these steps to instantly restore y
 
 1. **Install CopyQ** (via Winget or manual download).
 2. **Restore Settings:**
-  - Ensure CopyQ is completely closed (right-click the tray icon and select 'Exit').
-  - Press `Win + R`, type `%APPDATA%\copyq`, and hit Enter.
-  - Drop your backed-up `copyq.ini` file into this folder, replacing the default one.
-3. **Restore Commands:**
-  - Open CopyQ.
-  - Press `F6` to open the Command dialog.
-  - Click **Load Commands** and select your `copyq_commands.ini` file from this repo.
-  - Click **Apply** and **OK**.
 
+- Ensure CopyQ is completely closed (right-click the tray icon and select 'Exit').
+- Press `Win + R`, type `%APPDATA%\copyq`, and hit Enter.
+- Drop your backed-up `copyq.ini` file into this folder, replacing the default one.
+
+3. **Restore Commands:**
+
+- Open CopyQ.
+- Press `F6` to open the Command dialog.
+- Click **Load Commands** and select your `copyq_commands.ini` file from this repo.
+- Click **Apply** and **OK**.
+
+## Setting Up WinMerge for Instant Diff Between the Last 2 Clipboard Items
+
+To instantly compare your last two clipboard entries using WinMerge and CopyQ:
+
+1. **Install WinMerge**  
+   It’s recommended to install [WinMerge](https://winmerge.org/) using PortableApps.com for portability.
+   configure according to the guide here: [DIFF: Compare and merge](<../../Software Stack/my UX/Typing.md#diff-compare-and-merge>)
+
+2. **Open CopyQ Commands Window**
+   - Launch CopyQ.
+   - Press `F6` to open the **Command / Global Shortcut** dialog.
+
+3. **Locate the Diff Command**
+   - Find and select the `Diff Latest Items` command.
+
+4. **Configure the WinMerge Path**
+   - Look for a command line similar to:
+
+```
+execute('winmergeu', '/e', '/x', '/u', '/fl', '/dl', 'item1', '/dr', 'item2', name1, name2)
+```
+
+- If you installed WinMerge in a custom location, replace `'winmergeu'` with the full path to the `winmergeu.exe` executable. For example:
+
+```
+execute('C:/PortableApps/WinMerge/WinMergePortable.exe', '/e', '/x', '/u', '/fl', '/dl', 'item1', '/dr', 'item2', name1, name2)
+```
+
+- Save your changes.
+
+Now, when you trigger the command, CopyQ will open your two most recent clipboard entries side by side in WinMerge for easy comparison.
