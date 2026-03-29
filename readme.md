@@ -13,7 +13,7 @@ _Links will become active as sections are populated._
 - **[Software Stack](./docs/software.md):** Essential applications, developer tools, and package manager commands.
 - **[System Tweaks](./docs/tweaks.md):** OS settings, UI adjustments, and performance optimizations.
 - **[PowerToys Configuration](./docs/powertoys.md):** Backup files, keybinds, and preferred module settings.
-- **[CopyQ Setup](./docs/copyq.md):** Custom commands, clipboard settings, and configuration exports.
+- **[CopyQ Setup](./docs/CopyQ/copyq.md):** Custom commands, clipboard settings, and configuration exports.
 
 ---
 
