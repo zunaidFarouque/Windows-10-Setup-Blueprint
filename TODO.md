@@ -17,4 +17,11 @@ Affinity
 
 ---
 
-Start here: https://drive.google.com/drive/folders/1b_N-2pKC3piF8kUkEYhR232Ad-Ge9wcU
+Start here (local manual install): C:\Users\Turjo\Downloads\Programs\manualInstalls
+
+- Check if available in UniGetUI or scoop. that way it is updatable.
+- Add in the proper place in this repo.
+
+---
+
+Start here (online): https://drive.google.com/drive/folders/1b_N-2pKC3piF8kUkEYhR232Ad-Ge9wcU
