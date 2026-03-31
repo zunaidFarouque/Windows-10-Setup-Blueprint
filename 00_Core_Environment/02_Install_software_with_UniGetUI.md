@@ -2,6 +2,11 @@
 
 Run this after WinUtil: [01 Install software with WinUtil.md](01_Install_software_with_WinUtil.md)
 
+<details>
+  <summary>
+  <strong> First-Run Setup </strong>
+  </summary>
+
 ## First-Run Setup
 
 Open UniGetUI Settings and make sure WinGet, Chocolatey, and Scoop are installed and enabled as sources.
@@ -44,42 +49,46 @@ Open UniGetUI Settings and make sure WinGet, Chocolatey, and Scoop are installed
    scoop install main/7zip main/innounp main/dark
    ```
 
+</details>
+
 ## Reconnect Existing Setup (After OS Reinstall)
 
 If you reinstalled Windows but your `D:\_installed\scoop` folder is still intact, **do not** run the First-Run Setup. Run this sequence to resurrect your apps, rebuild your Start Menu shortcuts, and restore your system variables without redownloading anything.
 
-1. Open PowerShell and run the environment restore script:
+Open PowerShell and run this full reconnect sequence in one session:
 
-   ```powershell
-   # Allow PowerShell scripts
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```powershell
+# Allow PowerShell scripts
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
-   # Point Windows to your existing Scoop folder
-   $env:SCOOP='D:\_installed\scoop'
-   [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
+# Point Windows to your existing Scoop folder
+$env:SCOOP='D:\_installed\scoop'
+[Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
 
-   # Inject Scoop into your system PATH
-   $userPath = [Environment]::GetEnvironmentVariable('PATH', 'User')
-   if ($userPath -notmatch 'D:\\_installed\\scoop\\shims') {
-       $newPath = "$userPath;D:\_installed\scoop\shims"
-       [Environment]::SetEnvironmentVariable('PATH', $newPath, 'User')
-       $env:PATH = "$env:PATH;D:\_installed\scoop\shims"
-   }
-   ```
+# Reinstall Scoop so the command is available again
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
-2. Scan the D: drive and rebuild all application shims and Windows shortcuts:
+# Inject Scoop into your system PATH
+$userPath = [Environment]::GetEnvironmentVariable('PATH', 'User')
+if ($userPath -notmatch 'D:\\_installed\\scoop\\shims') {
+    $newPath = "$userPath;D:\_installed\scoop\shims"
+    [Environment]::SetEnvironmentVariable('PATH', $newPath, 'User')
+    $env:PATH = "$env:PATH;D:\_installed\scoop\shims"
+}
 
-   ```powershell
-   scoop reset *
-   ```
+# Rebuild all application shims and Windows shortcuts
+scoop reset *
 
-3. Recreate your PowerShell profile and inject the fast-search hook:
+# Reinstall scoop-search only if the preserved copy is not working
+if (-not (Get-Command scoop-search -ErrorAction SilentlyContinue)) {
+    scoop install main/scoop-search
+}
 
-   ```powershell
-   if (!(Test-Path $PROFILE)) { New-Item -Type File -Path $PROFILE -Force }
-   Add-Content -Path $PROFILE -Value '. ([ScriptBlock]::Create((& scoop-search --hook | Out-String)))'
-   . $PROFILE
-   ```
+# Recreate the PowerShell profile and inject the fast-search hook
+if (!(Test-Path $PROFILE)) { New-Item -Type File -Path $PROFILE -Force }
+Add-Content -Path $PROFILE -Value '. ([ScriptBlock]::Create((& scoop-search --hook | Out-String)))'
+. $PROFILE
+```
 
 # UniGetUI Bundles for Quick Start
 
@@ -132,3 +141,9 @@ If bundle import does not work, use the detailed list below to install items ind
 | **_🔶 Display & shell_**                  |                                                                             |                                                            |
 | **EarTrumpet**                            | UniGetUI                                                                    | Per-app audio control.                                     |
 | [Windhawk](11_Windhawk/windhawk.md)       | UniGetUI                                                                    | Windows UI tweaks via mods.                                |
+
+---
+
+# Next steps
+
+You are now ready for [Optimizations & tweaks](03_optimizations_and_tweaks.md) — continue setup to apply recommended system optimizations and privacy tweaks.

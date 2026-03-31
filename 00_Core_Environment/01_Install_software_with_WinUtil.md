@@ -35,3 +35,9 @@ UniGetUI depends on Windows Update components. Keep Windows Update services enab
 - Baseline apps installed (includes UniGetUI)
 - O&O profile imported and applied
 - Reboot completed if required
+
+---
+
+## Next steps
+
+You are now ready for [Install software (UniGetUI)](02_Install_software_with_UniGetUI.md) — proceed to the next guide to continue setup and install additional apps.

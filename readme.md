@@ -11,18 +11,23 @@ A comprehensive, organized repository of runbooks, settings, scripts, and softwa
 ## Recommended setup order
 
 1. **Core environment (baseline + updates)**
-   - [Install software with WinUtil](00_Core_Environment/01_Install_software_with_WinUtil.md)
-   - [Install software (UniGetUI)](00_Core_Environment/02_Install_software_with_UniGetUI.md)
-   - [Optimizations & tweaks](00_Core_Environment/03_optimizations_and_tweaks.md)
+   1. [Install software with WinUtil](00_Core_Environment/01_Install_software_with_WinUtil.md)
+   2. [Install software (UniGetUI)](00_Core_Environment/02_Install_software_with_UniGetUI.md)
+   3. [Optimizations & tweaks](00_Core_Environment/03_optimizations_and_tweaks.md)
+
+   Extra detailed doc:
    - [Windhawk tweaks](00_Core_Environment/11_Windhawk/windhawk.md)
+
 2. **UX and aesthetics**
    - [UX and Aesthetics software hub](01_UX_and_Aesthetics/Software.md) — unified hub for UX-facing tools and links to specialized setup guides.
+
+   Extra detailed docs:
    - [Portable ecosystem quick start](01_UX_and_Aesthetics/10_Portable_Ecosystem/Portable_Ecosystem.md)
    - [CopyQ setup](01_UX_and_Aesthetics/11_CopyQ/copyq.md)
    - [foobar2000 setup](01_UX_and_Aesthetics/12_Foobar_&_Deskband_Controls/1._foobar2000_Setup.md)
-   - [Foobar deskband / tray mode](01_UX_and_Aesthetics/12_Foobar_&_Deskband_Controls/2._How_to_make_it_in_tray.md)
    - [FB Messenger setup](01_UX_and_Aesthetics/13_FB_Messenger/fb_messenger.md)
-4. **Domain‑specific stacks (by folder)**
+
+3. **Domain‑specific stacks (by folder)**
    - `11_GIS_and_Academic/`:
      - [Academic / research software](11_GIS_and_Academic/Academic/Academic_software.md)
      - [GIS tools](11_GIS_and_Academic/GIS/GIS.md)
@@ -37,7 +42,7 @@ A comprehensive, organized repository of runbooks, settings, scripts, and softwa
      - [Architecture tools](13_Visuals_and_Design/Architecture/Architecture.md)
    - `14_Programming_and_Docker/`:
      - [Programming environment](14_Programming_and_Docker/Programming/Programming.md)
-5. **Automation & macros**
+4. **Automation & macros**
    - [Macro collection](My-Macros/readme.md)
    - [Python macro scripts](My-Macros/Python_scripts/readme.md)
 
