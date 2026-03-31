@@ -10,5 +10,5 @@ irm "https://winscript.cc/irm" | iex
 
 ## Optimizers & hardening
 
-(If not available in Portable apps folder) Download Optimizer manually: [https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe](https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe)
+(If not available in Portable apps folder) Download `Optimizer` manually: [https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe](https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe)
 It provides quick privacy settings, debloating, and system performance tweaks.

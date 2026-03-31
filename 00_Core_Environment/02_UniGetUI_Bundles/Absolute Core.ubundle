@@ -1,0 +1,133 @@
+{
+  "export_version": 3,
+  "packages": [
+    {
+      "Id": "Cloudflare.Warp",
+      "Name": "Cloudflare WARP",
+      "Version": "25.5.943.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "CodecGuide.K-LiteCodecPack.Standard",
+      "Name": "K-Lite Codec Pack Standard",
+      "Version": "19.6.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "FastStone.Viewer",
+      "Name": "FastStone Image Viewer",
+      "Version": "8.2",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "MPC-BE.MPC-BE",
+      "Name": "MPC-BE",
+      "Version": "1.8.9",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.DotNet.AspNetCore.8",
+      "Name": "Microsoft ASP.NET Core Runtime 8.0",
+      "Version": "8.0.25",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.DotNet.DesktopRuntime.6",
+      "Name": "Microsoft .NET Windows Desktop Runtime 6.0",
+      "Version": "6.0.36",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.DotNet.DesktopRuntime.7",
+      "Name": "Microsoft .NET Windows Desktop Runtime 7.0",
+      "Version": "7.0.20",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.DotNet.DesktopRuntime.8",
+      "Name": "Microsoft .NET Windows Desktop Runtime 8.0",
+      "Version": "8.0.25",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.DotNet.DesktopRuntime.9",
+      "Name": "Microsoft .NET Windows Desktop Runtime 9.0",
+      "Version": "9.0.14",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.PowerToys",
+      "Name": "PowerToys",
+      "Version": "0.98.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Nevcairiel.LAVFilters",
+      "Name": "LAV Filters",
+      "Version": "0.80",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Notepad\u002B\u002B.Notepad\u002B\u002B",
+      "Name": "Notepad\u002B\u002B",
+      "Version": "8.9.3",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "RARLab.WinRAR",
+      "Name": "WinRAR",
+      "Version": "7.10.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "RamenSoftware.Windhawk",
+      "Name": "Windhawk",
+      "Version": "1.7.3",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Resplendence.LatencyMon",
+      "Name": "LatencyMon",
+      "Version": "7.31",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Xanashi.Icaros",
+      "Name": "Icaros",
+      "Version": "3.3.3.301",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "hluk.CopyQ",
+      "Name": "CopyQ",
+      "Version": "14.0.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "voidtools.Everything.Alpha",
+      "Name": "Everything (Alpha)",
+      "Version": "1.5.0.1405",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    }
+  ],
+  "incompatible_packages_info": "Incompatible packages cannot be installed from UniGetUI, either because they came from a local source (for example Local PC) or because the package manager was unavailable. Nevertheless, they have been listed here for logging purposes.",
+  "incompatible_packages": []
+}

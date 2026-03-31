@@ -1,0 +1,109 @@
+{
+  "export_version": 3,
+  "packages": [
+    {
+      "Id": "AutoHotkey.AutoHotkey",
+      "Name": "AutoHotkey",
+      "Version": "2.1-alpha.16",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "CodeSector.TeraCopy",
+      "Name": "TeraCopy",
+      "Version": "3.17",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "DigitalScholar.Zotero",
+      "Name": "Zotero",
+      "Version": "8.0.4",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Gyan.FFmpeg",
+      "Name": "FFmpeg",
+      "Version": "7.1.1",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "JiriPolasek.RecentFilesforCommandPalette",
+      "Name": "Recent Files for Command Palette",
+      "Version": "0.8.0.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "MichaelTippach.ASIO4ALL",
+      "Name": "ASIO4ALL",
+      "Version": "2.17",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Microsoft.XNARedist",
+      "Name": "Microsoft XNA Framework Redistributable Refresh",
+      "Version": "4.0.30901.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "Nefarius.HidHide",
+      "Name": "HidHide",
+      "Version": "1.5.230",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "OmicronLab.Avro",
+      "Name": "Avro Keyboard",
+      "Version": "5.6.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "SimplyCA.Typeless",
+      "Name": "Typeless",
+      "Version": "0.9.7",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "ViGEm.ViGEmBus",
+      "Name": "ViGEm Bus Driver",
+      "Version": "1.22.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "dechamps.FlexASIO",
+      "Name": "FlexASIO",
+      "Version": "1.10b",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "lin-ycv.EverythingCmdPal3",
+      "Name": "EverythingCmdPal",
+      "Version": "0.2.0.0",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "staniel359.muffon",
+      "Name": "muffon",
+      "Version": "2.4.0",
+      "Source": "winget",
+      "ManagerName": "Winget",
+      "InstallationOptions": {
+        "OverridesNextLevelOpts": true,
+        "InteractiveInstallation": true
+      }
+    }
+  ],
+  "incompatible_packages_info": "Incompatible packages cannot be installed from UniGetUI, either because they came from a local source (for example Local PC) or because the package manager was unavailable. Nevertheless, they have been listed here for logging purposes.",
+  "incompatible_packages": []
+}
