@@ -1,5 +1,6 @@
 ## Core Photography Workflow
 
+
 | Software                                       | Install Method | What it does / Why I need it                                                                  |
 | ---------------------------------------------- | -------------- | --------------------------------------------------------------------------------------------- |
 | **Adobe Lightroom**                            | Manual         | Main photo editing and catalog workflow for photography.                                      |
@@ -7,7 +8,9 @@
 | **Radiant Photo**                              | Manual         | Automated photo enhancement and smart correction support.                                     |
 | **[ExifTool GUI](ExifToolGUI/ExifToolGUI.md)** | PortableApps   | Apply metadata presets (copyright, date alignment) using predefined ExifTool argument blocks. |
 
+
 ## Open Source Alternatives
+
 
 | Software        | Install Method | What it does / Why I need it                                     |
 | --------------- | -------------- | ---------------------------------------------------------------- |
@@ -17,7 +20,9 @@
 | **RawTherapee** | PortableApps   | Advanced RAW processing and color adjustments.                   |
 | **darktable**   | PortableApps   | RAW photo development and non-destructive edits.                 |
 
+
 ## Photo Utilities
+
 
 | Software                   | Install Method | What it does / Why I need it                               |
 | -------------------------- | -------------- | ---------------------------------------------------------- |
@@ -25,3 +30,5 @@
 | **DiffImg**                | PortableApps   | Image comparison tool for spotting visual differences.     |
 | **FastStone Image Viewer** | PortableApps   | Fast image viewer and browser with basic processing tools. |
 | **Upscayl**                | UniGetUI       | Image upscaling for low-resolution assets and old photos.  |
+
+
