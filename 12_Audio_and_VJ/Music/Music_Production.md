@@ -86,8 +86,16 @@ TODO: Add VST Plugins (still incomplete)
 
 ## Music Notation & Training
 
-| Software        | Install Method | What it does / Why I need it               |
-| --------------- | -------------- | ------------------------------------------ |
-| **MuseScore**   | scoop_UGU      | Music notation editing and score playback. |
-| **GNU Solfege** | scoop_UGU      | Ear training for intervals and pitch.      |
-| **SolfegePortable** | scoop_UGU  | Portable ear-training and sight-singing practice toolkit. |
+| Software            | Install Method | What it does / Why I need it                              |
+| ------------------- | -------------- | --------------------------------------------------------- |
+| **MuseScore**       | scoop_UGU      | Music notation editing and score playback.                |
+| **GNU Solfege**     | scoop_UGU      | Ear training for intervals and pitch.                     |
+| **SolfegePortable** | scoop_UGU      | Portable ear-training and sight-singing practice toolkit. |
+
+## Network audio / remote audio
+
+| Software       | Install Method | What it does / Why I need it                                         |
+| -------------- | -------------- | -------------------------------------------------------------------- |
+| **SonoBus**    | Manual         | Low-latency audio streaming between devices and collaborators.       |
+| **SoundWire**  | Manual         | Stream audio between PC and mobile devices over the network.         |
+| **AudioRelay** | Manual         | Send PC audio to another device or use a phone as an audio endpoint. |

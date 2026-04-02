@@ -15,11 +15,14 @@ Related guides:
 
 ## Typing and text workflow
 
-| Software                        | Install Method                                | What it does / Why I need it               |
-| ------------------------------- | --------------------------------------------- | ------------------------------------------ |
-| [CopyQ](../docs/CopyQ/copyq.md) | UniGetUI                                      | Clipboard manager with persistent history. |
-| **WhisperTyping**               | [Manual](https://whispertyping.com/download/) | Voice typing with a generous free tier.    |
-| **Typeless**                    | UniGetUI                                      | Auto-format and cleanup for dictated text. |
+
+| Software                        | Install Method                                | What it does / Why I need it                |
+| ------------------------------- | --------------------------------------------- | ------------------------------------------- |
+| [CopyQ](../docs/CopyQ/copyq.md) | UniGetUI                                      | Clipboard manager with persistent history.  |
+| **WhisperTyping**               | [Manual](https://whispertyping.com/download/) | Voice typing with a generous free tier.     |
+| **Typeless**                    | UniGetUI                                      | Auto-format and cleanup for dictated text.  |
+| aText                           | scoop_UGU                                     | Text expansion with rich text and scripting |
+
 
 For CopyQ, you have to specify the WinMerge.exe location in the direct diff command.
 
@@ -30,27 +33,35 @@ WinMerge settings I use:
 
 ## Remote control
 
+
 | Software     | Install Method | What it does / Why I need it        |
 | ------------ | -------------- | ----------------------------------- |
 | **Stardesk** | UniGetUI       | Current best remote desktop choice. |
 
-## Listening music
 
-| Software                                                        | Install Method                                          | What it does / Why I need it                               |
-| --------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------- |
-| [foobar2000](Foobar_&_Deskband_Controls/1._foobar2000_Setup.md) | Manual (D)                                              | Play local downloaded songs.                               |
-| **Harmony Music**                                               | [Manual (D)](https://github.com/anandnet/Harmony-Music) | Play and Download songs.                                   |
-| **Muffon**                                                      | [scoop_UGU](https://muffon.netlify.app/)                | Discover new music.                                        |
-| **OnTheSpot**                                                   | scoop_UGU                                               | Grab and organize music downloads from supported services. |
+## Listening and Managing Music
+
+
+| Software                                                        | Install Method                                          | What it does / Why I need it                                     |
+| --------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------- |
+| [foobar2000](Foobar_&_Deskband_Controls/1._foobar2000_Setup.md) | Manual (D)                                              | Play local downloaded songs.                                     |
+| **Harmony Music**                                               | [Manual (D)](https://github.com/anandnet/Harmony-Music) | Play and Download songs.                                         |
+| **Muffon**                                                      | [scoop_UGU](https://muffon.netlify.app/)                | Discover new music.                                              |
+| **OnTheSpot**                                                   | scoop_UGU                                               | Grab and organize music downloads from supported services.       |
+| **MusicBrainz Picard**                                          | scoop_UGU                                               | Tagger and organizer for music files using MusicBrainz database. |
+
 
 ## Gaming input tools
+
 
 | Software    | Install Method                    | What it does / Why I need it                     |
 | ----------- | --------------------------------- | ------------------------------------------------ |
 | **X360CE**  | [Manual](https://www.x360ce.com/) | Controller emulation for older/non-native games. |
 | **HidHide** | UniGetUI                          | Hide physical controllers to avoid double input. |
 
+
 ## General UX and desktop tools
+
 
 | Software                            | Install Method                                     | What it does / Why I need it                               |
 | ----------------------------------- | -------------------------------------------------- | ---------------------------------------------------------- |
@@ -62,14 +73,18 @@ WinMerge settings I use:
 | **Kando**                           | scoop_UGU                                          | Radial launcher menu.                                      |
 | **Microsoft To Do**                 | UniGetUI                                           | Quick task capture and sync.                               |
 
+
 ## Social media
+
 
 | Software                                        | Install Method | What it does / Why I need it                                                         |
 | ----------------------------------------------- | -------------- | ------------------------------------------------------------------------------------ |
 | [FB Messenger](13_FB_Messenger/fb_messenger.md) | Manual (D)     | Messenger app: opens messenger.com as a standalone window. See repo guide for setup. |
 | **Telegram**                                    | scoop_UGU (D)  | Secure messaging with multi-device sync and channels.                                |
 
+
 ## System and diagnostics
+
 
 | Software                            | Install Method                                                                       | What it does / Why I need it                                          |
 | ----------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------- |
@@ -94,7 +109,9 @@ WinMerge settings I use:
 | **Windows Update Blocker**          | scoop_UGU                                                                            | Toggle Windows Update services when tighter update control is needed. |
 | **WizTree**                         | scoop_UGU                                                                            | Rapid disk usage analysis to find large folders and files.            |
 
+
 ## Productivity and file utilities
+
 
 | Software           | Install Method                                      | What it does / Why I need it                                        |
 | ------------------ | --------------------------------------------------- | ------------------------------------------------------------------- |
@@ -110,9 +127,13 @@ WinMerge settings I use:
 | **ShareX**         | scoop_UGU                                           | Screenshot, capture, and share automation toolkit.                  |
 | **SpeedCrunch**    | scoop_UGU                                           | Desktop calculator with expression history and fast keyboard input. |
 
+
 ## Privacy, communication, and access
+
 
 | Software        | Install Method | What it does / Why I need it                   |
 | --------------- | -------------- | ---------------------------------------------- |
 | **Tor Browser** | scoop_UGU      | Privacy-focused browsing over the Tor network. |
 | **Zoom**        | scoop_UGU      | Video meetings, screen sharing, and calls.     |
+
+

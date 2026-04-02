@@ -9,8 +9,8 @@
       "ManagerName": "Winget"
     },
     {
-      "Id": "CodecGuide.K-LiteCodecPack.Standard",
-      "Name": "K-Lite Codec Pack Standard",
+      "Id": "CodecGuide.K-LiteCodecPack.Basic",
+      "Name": "K-Lite Codec Pack Basic",
       "Version": "19.6.0",
       "Source": "winget",
       "ManagerName": "Winget"
