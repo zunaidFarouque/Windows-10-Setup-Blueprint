@@ -42,6 +42,19 @@ TODO: Add VST Plugins (still incomplete)
 | **[Audacity](https://www.audacityteam.org/download/)** | scoop_UGU      | Quick audio recording, trimming, and cleanup. |
 | **TAudioConverter**                                    | scoop_UGU      | Batch audio format conversion utility.        |
 
+## Audio cleaning
+
+| Software                                                        | Install Method | What it does / Why I need it                                     |
+| --------------------------------------------------------------- | -------------- | ---------------------------------------------------------------- |
+| **_🔶 Offline (VST / local plugin)_**                           |                |                                                                  |
+| **Supertone Clear**                                             | Manual         | Local vocal cleanup / denoise in the DAW.                        |
+| **Accentize dxRevive Pro**                                      | Manual         | Dialogue and voice restoration plugin for repair and clarity.    |
+| **iZotope RX**                                                  | Manual         | RX Editor and repair tools for spectral cleanup and restoration. |
+| **_🔶 Online (web / cloud service)_**                           |                |                                                                  |
+| **[LALAL.AI - Extreme split](https://www.lalal.ai/)**           | `Web`          | Cloud stem separation and isolated track extraction.             |
+| **[Auphonic Voice Enhancer](https://auphonic.com/)**            | `Web`          | Cloud voice enhancement and polish for speech and podcasts.      |
+| **[Adobe Podcast Enhancer](https://podcast.adobe.com/enhance)** | `Web`          | Browser-based speech enhancement in the Adobe Podcast workflow.  |
+
 ## Routing / Audio System
 
 | Software                                                                   | Install Method                                                  | What it does / Why I need it                            |
@@ -78,6 +91,7 @@ TODO: Add VST Plugins (still incomplete)
 | **Revoice Pro ⭐**                     | Manual         | Advanced vocal alignment and doubling workflow control.         |
 | **VocAlign**                           | Manual         | Automatic vocal timing alignment.                               |
 | **Guitar Rig / Helix Native**          | Manual         | Guitar amp and effects modeling suite.                          |
+| **XVox**                               | Manual         | Fast, preset-based mixing plugin for vocals.                    |
 | **_🔶 Optional FX_**                   |                |                                                                 |
 | **Soundtoys effects**                  | Manual         | Character effects bundle for color and motion.                  |
 | **NoiseAsh Palmary**                   | Manual         | Optional character plugin in testing.                           |
