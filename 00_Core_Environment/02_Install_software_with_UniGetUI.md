@@ -46,6 +46,8 @@ Open UniGetUI Settings and make sure WinGet, Chocolatey, and Scoop are installed
    scoop bucket add DEV-tools https://github.com/anderlli0053/DEV-tools
    scoop bucket add SCrispy https://github.com/Koalhack/SCrispyBucket
    scoop bucket add 257-notPublic https://github.com/gdm257/scoop-257
+   scoop bucket add ZunaidScoop https://github.com/zunaidFarouque/Zunaid-Scoop-Bucket
+
    scoop install main/7zip main/innounp main/dark
    ```
 
