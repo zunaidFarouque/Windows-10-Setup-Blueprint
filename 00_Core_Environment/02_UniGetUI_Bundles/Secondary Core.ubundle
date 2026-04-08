@@ -2,6 +2,20 @@
   "export_version": 3,
   "packages": [
     {
+      "Id": "9N0H1M8J1308",
+      "Name": "DTS:X Ultra",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "9PJ0NKL8MCSJ",
+      "Name": "DTS Sound Unbound",
+      "Version": "Unknown",
+      "Source": "msstore",
+      "ManagerName": "Winget"
+    },
+    {
       "Id": "AutoHotkey.AutoHotkey",
       "Name": "AutoHotkey",
       "Version": "2.1-alpha.16",
@@ -19,6 +33,13 @@
       "Id": "DigitalScholar.Zotero",
       "Name": "Zotero",
       "Version": "8.0.4",
+      "Source": "winget",
+      "ManagerName": "Winget"
+    },
+    {
+      "Id": "File-New-Project.EarTrumpet",
+      "Name": "EarTrumpet",
+      "Version": "2.3.0.0",
       "Source": "winget",
       "ManagerName": "Winget"
     },

@@ -41,3 +41,5 @@ UniGetUI depends on Windows Update components. Keep Windows Update services enab
 ## Next steps
 
 You are now ready for [Install software (UniGetUI)](02_Install_software_with_UniGetUI.md) — proceed to the next guide to continue setup and install additional apps.
+
+Laptop-specific (Gigabyte Aorus 15 9MF): if you never install GCC (I skip it because it is bloated), complete [GFBC prerequisite setup](05_Gigabyte_Fan_Battery_Control/README.md) before using GFBC.

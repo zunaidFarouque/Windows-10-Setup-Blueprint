@@ -97,6 +97,7 @@ WinMerge settings I use:
 | **Detect It Easy (DIE)**            | scoop_UGU                                                                            | Identify packers, compilers, and executable signatures.               |
 | **Easy Context Menu**               | scoop_UGU                                                                            | Toggle shell-menu entries and desktop integrations quickly.           |
 | **Firewall App Blocker**            | scoop_UGU                                                                            | Quickly block apps through Windows Firewall rules.                    |
+| **MSI Afterburner**                 | scoop_UGU                                                                            | FPS and hardware OSD monitoring while gaming and benchmarking.        |
 | **PatchCleaner**                    | scoop_UGU                                                                            | Find and clean orphaned Windows Installer patch files.                |
 | **Process Explorer**                | scoop_UGU                                                                            | Deep process and handle inspection beyond Task Manager.               |
 | **Process Hacker**                  | scoop_UGU                                                                            | Advanced process and service monitoring and control.                  |
@@ -108,6 +109,8 @@ WinMerge settings I use:
 | **Wise Program Uninstaller**        | UniGetUI                                                                             | Clean uninstall when apps leave junk behind.                          |
 | **Windows Update Blocker**          | scoop_UGU                                                                            | Toggle Windows Update services when tighter update control is needed. |
 | **WizTree**                         | scoop_UGU                                                                            | Rapid disk usage analysis to find large folders and files.            |
+
+For MSI Afterburner, keep `Enable hardware control and monitoring` unchecked in `Settings > General` (as shown in your screenshot).
 
 
 ## Productivity and file utilities
