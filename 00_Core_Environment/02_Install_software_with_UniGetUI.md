@@ -122,6 +122,8 @@ If bundle import does not work, use the detailed list below to install items ind
 | Software                                       | Install Method                                     | What it does / Why I need it                               |
 | ---------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------- |
 | **_🔶 Core runtimes / deps_**                  |                                                    |                                                            |
+| **HEIF/HEVC Codec Dependency**                 | [Manual](https://www.codecguide.com/media_foundation_codecs.htm) | Provides HEIF image + HEVC codec support required for HEIC files. |
+| **CopyTrans HEIC**                             | [Manual](https://www.copytrans.net/copytransheic/) | HEIC/HEIF support in Windows Explorer/apps.                |
 | **Microsoft VC++ Redistributable 2015+ (x64)** | UniGetUI (`Microsoft.VCRedist.2015+.x64`)          | Core C++ runtime for many 64-bit apps/games.               |
 | **Microsoft VC++ Redistributable 2015+ (x86)** | UniGetUI (`Microsoft.VCRedist.2015+.x86`)          | Core C++ runtime for many 32-bit apps/games.               |
 | **Microsoft DirectX Runtime**                  | UniGetUI (`Microsoft.DirectX`)                     | Legacy DirectX components required by older software.      |
@@ -147,7 +149,6 @@ If bundle import does not work, use the detailed list below to install items ind
 | **K-Lite Codec Pack**                          | UniGetUI                                           | Wide codec support.                                        |
 | **LAV Filters**                                | UniGetUI                                           | Decoder/filter stack for players.                          |
 | **Icaros**                                     | UniGetUI                                           | Adds thumbnails and shell previews for more media formats. |
-| **CopyTrans HEIC**                             | [Manual](https://www.copytrans.net/copytransheic/) | HEIC/HEIF support in Windows Explorer/apps.                |
 | **_🔶 Display & shell_**                       |                                                    |                                                            |
 | **EarTrumpet**                                 | UniGetUI                                           | Per-app audio control.                                     |
 | [Windhawk](11_Windhawk/windhawk.md)            | UniGetUI                                           | Windows UI tweaks via mods.                                |
