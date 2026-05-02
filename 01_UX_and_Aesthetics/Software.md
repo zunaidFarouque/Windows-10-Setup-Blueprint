@@ -22,6 +22,7 @@ Related guides:
 | **WhisperTyping**               | [Manual](https://whispertyping.com/download/) | Voice typing with a generous free tier.     |
 | **Typeless**                    | UniGetUI                                      | Auto-format and cleanup for dictated text.  |
 | aText                           | scoop_UGU                                     | Text expansion with rich text and scripting |
+| **Pulover's Macro Creator**     | scoop_UGU                                     | Visual macro builder for Windows automation tasks. |
 
 
 For CopyQ, you have to specify the WinMerge.exe location in the direct diff command.
@@ -69,7 +70,8 @@ WinMerge settings I use:
 | **EverythingCmdPal**                | UniGetUI                                           | Search/launcher workflow.                                  |
 | **Internet Download Manager (IDM)** | [Manual](https://www.internetdownloadmanager.com/) | Download accelerator with browser integration and queuing. |
 | [Rainmeter](../docs/Rainmeter/)     | UniGetUI (D)                                       | Desktop widgets; setup details are in the repo guide.      |
-| **Nearby share / Quick share**      | UniGetUI                                           | Fast local device file transfer.                           |
+| **ezshare**                         | scoop_UGU                                          | Terminal + QR code based. go to the folder, type ezshare on URL OR open powershell at the location and type ezshare to directly share with same wifi network. |
+| **Quick Share for Windows**         | [Manual](https://www.android.com/intl/en_uk/better-together/quick-share-app/) | Fast local device transfer; avoid the Microsoft Store version (BAD). |
 | **Kando**                           | scoop_UGU                                          | Radial launcher menu.                                      |
 | **Microsoft To Do**                 | UniGetUI                                           | Quick task capture and sync.                               |
 
