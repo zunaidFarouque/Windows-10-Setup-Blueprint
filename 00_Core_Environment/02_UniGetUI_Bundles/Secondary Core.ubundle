@@ -114,6 +114,13 @@
       "ManagerName": "Winget"
     },
     {
+      "Id": "pdfgear",
+      "Name": "Pdfgear",
+      "Version": "2.1.15",
+      "Source": "extras",
+      "ManagerName": "Scoop"
+    },
+    {
       "Id": "staniel359.muffon",
       "Name": "muffon",
       "Version": "2.4.0",

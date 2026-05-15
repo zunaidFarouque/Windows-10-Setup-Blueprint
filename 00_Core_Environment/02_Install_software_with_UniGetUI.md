@@ -139,6 +139,7 @@ If bundle import does not work, use the detailed list below to install items ind
 | **Everything**                                 | UniGetUI                                           | Instant file search.                                       |
 | **WinRAR**                                     | UniGetUI                                           | Archive tool (RAR/ZIP/etc).                                |
 | **Notepad++**                                  | UniGetUI                                           | Lightweight editor for ops work.                           |
+| **PDFgear**                                    | UniGetUI (Scoop `pdfgear`)                         | Main PDF handler for me, great alternative of Adobe Acrobat reader. |
 | **TeraCopy**                                   | UniGetUI                                           | Better copy/move with retries and queue.                   |
 | **Bulk Crap Uninstaller (BCUninstaller)**      | UniGetUI                                           | Bulk uninstall apps and remove leftovers fast.             |
 | **_🔶 Media_**                                 |                                                    |                                                            |
